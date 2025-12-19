@@ -1,0 +1,309 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    background-color: black;
+    color: white;
+}
+
+/* navbar */
+#section1 {
+    height: 20px;
+
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    background-color: black;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(to right, red, #FAEB92, red);
+    /* سه رنگ */
+    -webkit-background-clip: text;
+    /* فقط متن را پر می‌کند */
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand:hover {
+    color: red;
+}
+
+.search {
+    width: 400px;
+    margin-left: 40px;
+    color: white;
+}
+
+.search input {
+    border-radius: 40px;
+    border: none;
+    outline: 1px solid #333;
+}
+
+.form-control {
+    background-color: black;
+
+}
+
+.search input:hover {}
+
+nav ul {
+    margin-left: 50px;
+
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    border-radius: 30px;
+    outline: red 1px solid;
+
+}
+
+/* section2 */
+#section10 img {
+    height: 500px;
+    border-radius: 10px;
+}
+
+.carousel-item h1 {
+    position: relative;
+    top: -200px;
+    right: 260px;
+}
+
+.carousel-item h1 {
+    font-size: 50px;
+    color: #FAEB92;
+    font-weight: 1000;
+    -webkit-text-stroke: 1px white;
+}
+
+.carousel-item input {
+    padding: 10px;
+    background-color: orange;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    transition: 1s ease;
+
+}
+
+.carousel-item input:hover {
+    background-color: white;
+    color: orange;
+
+}
+
+/* section3 */
+#section3 {
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: 100;
+}
+
+#section3 h2 {
+    color: red;
+}
+
+#Para {
+    color: #FAEB92;
+}
+
+#section3 .carousel-control-prev {
+    color: red;
+}
+
+.carousel-item1 img {
+    height: 250px;
+}
+
+.carousel-item1 figcaption caption p {
+    width: 10px;
+}
+
+.carousel-item2 img {
+    height: 210px;
+}
+
+/* #btn {
+    position: relative;
+    left: 490px;
+}
+
+#btn button {
+    background-color: red;
+    padding: 15px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.search-wrapper button:hover {
+    background-color: #FAEB92;
+} */
+
+/* section4 */
+#section4 {
+    margin-top: 30px;
+
+}
+
+#section4 h2 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* section5 */
+.section5 {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.section5 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, red, green, blue);
+    /* سه رنگ */
+    -webkit-background-clip: text;
+    /* فقط متن را پر می‌کند */
+    -webkit-text-fill-color: transparent;
+    /* متن شفاف می‌شود تا گرادینت دیده شود */
+}
+
+.section5 p {
+    color: #FAEB92;
+}
+
+/* section6 */
+.section6 {
+    margin-top: 30px;
+}
+
+.section6 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, red, green, blue);
+    /* سه رنگ */
+    -webkit-background-clip: text;
+    /* فقط متن را پر می‌کند */
+    -webkit-text-fill-color: transparent;
+    /* متن شفاف می‌شود تا گرادینت دیده شود */
+}
+
+.section6Head h2 {
+    font-weight: bold;
+}
+
+.section6Head p {
+    color: #888;
+}
+
+.section6 .row .col {
+    background-color: black;
+    /* box-shadow: 0px 0px 1px 1px #FAEB92; */
+    outline: 1px solid #333;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    transition: 0.4s ease;
+    max-width: 403px;
+
+}
+
+.section6 .row .col:hover {
+    box-shadow: 0px 0px 2px 2px red;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.section6 .row .col p {
+    color: #888;
+}
+
+/* section7 */
+#section7 {
+    margin-top: 40px;
+}
+
+#section7 h2 {
+
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, red, green, blue);
+    /* سه رنگ */
+    -webkit-background-clip: text;
+    /* فقط متن را پر می‌کند */
+    -webkit-text-fill-color: transparent;
+    /* متن شفاف می‌شود تا گرادینت دیده شود */
+}
+
+#section7 .row .col img {
+    height: 230px;
+}
+
+/* section8 */
+#section8 .row .col .card {
+    background-color: black;
+    color: white;
+    outline: 1px solid #333;
+    transition: 0.3s ease-out;
+}
+
+#section8 .row .col .card:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* footer */
+
+#section9 {
+    margin-top: 50px;
+}
+
+#footerLogo {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#footerLogo h2 {
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(to right, red, #FAEB92, red);
+    /* سه رنگ */
+    -webkit-background-clip: text;
+    /* فقط متن را پر می‌کند */
+    -webkit-text-fill-color: transparent;
+}
+
+.col a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.col a:hover {
+    color: wheat;
+}
